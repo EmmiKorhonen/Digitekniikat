@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tico Cafe</title>
+</head>
+<body>
+    
+    <div id="vastaus"></div>
+
+    <script>
+
+        fetch('omajson.json')
+        // Muunnetaan vastaus JSON muotoon
+        .then(function (response) {
+        return response.json();
+        })
+        // Käsitellään muunnettu (eli JSON muotoinen) vastaus
+        .then(function (responseJson) {
+        // Testataan onnistuuko json-luku
+        // jos onnistuu päivitetään tähän json-datan käsittelevän funktion kutsu
+        document.getElementById("vastaus").innerHTML =
+        "<p>Jatketaan harjoitusta</p>";
+        })
+        // Jos tuli jokin virhe
+        .catch(function (error) {
+        document.getElementById("vastaus").innerHTML =
+        "<p>Tietoa ei pystytä hakemaan</p>";
+        })
+
+    </script>
+
+
+</body>
+</html>
