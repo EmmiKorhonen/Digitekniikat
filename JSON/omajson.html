@@ -18,16 +18,35 @@
         })
         // Käsitellään muunnettu (eli JSON muotoinen) vastaus
         .then(function (responseJson) {
-        // Testataan onnistuuko json-luku
-        // jos onnistuu päivitetään tähän json-datan käsittelevän funktion kutsu
-        document.getElementById("vastaus").innerHTML =
-        "<p>Jatketaan harjoitusta</p>";
+        kerro(responseJson);
         })
         // Jos tuli jokin virhe
         .catch(function (error) {
         document.getElementById("vastaus").innerHTML =
         "<p>Tietoa ei pystytä hakemaan</p>";
         })
+
+    </script>
+
+    <script>
+
+        function kerro(data){
+        //muuttujatesti, johon tulostettava tieto kerätään
+        var teksti="";
+        teksti = "<h1>"+data.yritys+"</h1>";
+        teksti = teksti + "<h3>Yhteystiedot</h3>";
+        teksti = teksti + "<p>Osoite: "+data.yhteystiedot.osoite +"<br>Puhelin: "+data.yhteystiedot.puhelin+"<br>Email: "+data.yhteystiedot.email+"</p>"
+        teksti = teksti + "<h3>Tuotteet</h3>";
+        teksti = teksti +data.tuotteet[0] + "<br>" + data.tuotteet[1] + "<br>" + data.tuotteet[2];
+        teksti = teksti + "<h3>Henkilökunta</h3>";
+        teksti = teksti +data.henkilokunta[0].nimi + " " +data.henkilokunta[0].titteli + "<br>" +data.henkilokunta[1].nimi + " " +data.henkilokunta[1].titteli + "<br>" +data.henkilokunta[2].nimi + " " +data.henkilokunta[2].titteli ;
+
+        
+        
+
+        //tulostus sivulle
+        document.getElementById("vastaus").innerHTML=teksti;
+        }
 
     </script>
 
