@@ -6,12 +6,12 @@
     <title>Tico Cafe</title>
 </head>
 <body>
-    
+
     <div id="vastaus"></div>
 
     <script>
 
-        fetch('https://raw.githubusercontent.com/EmmiKorhonen/Digitekniikat/refs/heads/main/JSON/omajson.json')
+        fetch('omajson.json')
         // Muunnetaan vastaus JSON muotoon
         .then(function (response) {
         return response.json();
@@ -27,9 +27,7 @@
         })
 
     </script>
-    
 
 
 </body>
 </html>
-
