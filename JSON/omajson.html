@@ -6,19 +6,22 @@
     <title>Tico Cafe</title>
 </head>
 <body>
-
+    
     <div id="vastaus"></div>
 
     <script>
 
-        fetch('omajson.json')
+        fetch('https://raw.githubusercontent.com/EmmiKorhonen/Digitekniikat/refs/heads/main/JSON/omajson.json')
         // Muunnetaan vastaus JSON muotoon
         .then(function (response) {
         return response.json();
         })
         // Käsitellään muunnettu (eli JSON muotoinen) vastaus
         .then(function (responseJson) {
-        kerro(responseJson);
+        // Testataan onnistuuko json-luku
+        // jos onnistuu päivitetään tähän json-datan käsittelevän funktion kutsu
+        document.getElementById("vastaus").innerHTML =
+        "<p>Jatketaan harjoitusta</p>";
         })
         // Jos tuli jokin virhe
         .catch(function (error) {
