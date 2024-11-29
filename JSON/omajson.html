@@ -10,30 +10,28 @@
     <div id="vastaus"></div>
 
     <script>
-        fetch('https://raw.githubusercontent.com/EmmiKorhonen/Digitekniikat/main/JSON/omajson.json')
+
+        fetch('https://raw.githubusercontent.com/EmmiKorhonen/Digitekniikat/refs/heads/main/JSON/omajson.json')
+        // Muunnetaan vastaus JSON muotoon
         .then(function (response) {
-            return response.json(); // Muunnetaan vastaus JSON-muotoon
+        return response.json();
         })
+        // Käsitellään muunnettu (eli JSON muotoinen) vastaus
         .then(function (responseJson) {
-            kerro(responseJson); // Käsitellään JSON-data
+        kerro(responseJson);
         })
+        // Jos tuli jokin virhe
         .catch(function (error) {
-            document.getElementById("vastaus").innerHTML =
-                "<p>Tietoa ei pystytä hakemaan</p>";
-            console.error("Virhe tietojen hakemisessa:", error);
-        });
+        document.getElementById("vastaus").innerHTML =
+        "<p>Tietoa ei pystytä hakemaan</p>";
+        })
 
-        function kerro(data) {
-            var teksti = "";
-            teksti = "<h1>" + data.yritys + "</h1>";
-            teksti += "<p>Yhteystiedot</p>";
-            teksti += "<p>Osoite: " + data.yhteystiedot.osoite +
-                      "<br>Puhelin: " + data.yhteystiedot.puhelin +
-                      "<br>Email: " + data.yhteystiedot.email + "</p>";
-
-            document.getElementById("vastaus").innerHTML = teksti; // Tulostetaan data
-        }
     </script>
+    
+
+
+</body>
+</html>
 
 </body>
 </html>
