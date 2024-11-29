@@ -28,6 +28,22 @@
 
     </script>
 
+    <script>
+
+        function kerro(data){
+        //muuttujatesti, johon tulostettava tieto kerätään
+        var teksti="";
+        teksti = "<h1>"+data.yritys+"</h1>";
+        teksti = teksti + "<p>Yhteystiedot</p>";
+        teksti = teksti + "<p>Osoite: "+data.yhteystiedot.osoite +"<br>Puhelin: "+data.yhteystiedot.puhelin+"<br>Email: "+data.yhteystiedot.email+"</p>"
+
+        //tulostus sivulle
+        document.getElementById("vastaus").innerHTML=teksti;
+        }
+
+    </script>
+
+
 
 </body>
 </html>
