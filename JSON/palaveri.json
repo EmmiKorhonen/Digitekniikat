@@ -1,0 +1,10 @@
+{
+    "aihe":"pikkujoulut",
+    "osallistujia":"5",
+    "nimet":["Anna Aurinkoinen", "Viivi Villasukka", "Keijo Kettunen", "Odessa Ottotuuli", "Raimo Railakas"],
+    "tiedot":{
+        "paikka":"Kypäräkatu 7, Kuopio",
+        "aika":"klo 15",
+        "kesto": "2h"
+        }
+    }
