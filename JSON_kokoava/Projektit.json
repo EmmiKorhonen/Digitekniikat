@@ -15,25 +15,25 @@
       {
         "id": 3,
         "otsikko": "Mock up",
-        "kuva": "mockup.png",
+        "kuva": "https://raw.githubusercontent.com/EmmiKorhonen/Digitekniikat/main/JSON_kokoava/mockup.png",
         "kuvaus": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
       },
       {
         "id": 4,
         "otsikko": "Prototyyppi",
-        "kuva": "proto.png",
+        "kuva": "https://raw.githubusercontent.com/EmmiKorhonen/Digitekniikat/main/JSON_kokoava/proto.png",
         "kuvaus": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
       },
       {
         "id": 5,
         "otsikko": "Tarjouslehti",
-        "kuva": "mainos2.png",
+        "kuva": "https://raw.githubusercontent.com/EmmiKorhonen/Digitekniikat/main/JSON_kokoava/mainos2.png",
         "kuvaus": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
       },
       {
         "id": 6,
         "otsikko": "Sivusto",
-        "kuva": "sivusto.png",
+        "kuva": "https://raw.githubusercontent.com/EmmiKorhonen/Digitekniikat/main/JSON_kokoava/sivusto.png",
         "kuvaus": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
       }
     ]
