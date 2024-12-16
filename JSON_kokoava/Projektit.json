@@ -9,7 +9,7 @@
       {
         "id": 2,
         "otsikko": "Asiakaspersoona",
-        "kuva": "persoona.png",
+        "kuva": "https://raw.githubusercontent.com/EmmiKorhonen/Digitekniikat/main/JSON_kokoava/persoona.png",
         "kuvaus": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
       },
       {
