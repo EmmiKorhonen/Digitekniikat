@@ -1,0 +1,41 @@
+{
+    "projektit": [
+      {
+        "id": 1,
+        "otsikko": "Mainos",
+        "kuva": "mainos1.jpg",
+        "kuvaus": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
+      },
+      {
+        "id": 2,
+        "otsikko": "Asiakaspersoona",
+        "kuva": "persoona.png",
+        "kuvaus": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
+      },
+      {
+        "id": 3,
+        "otsikko": "Mock up",
+        "kuva": "mockup.png",
+        "kuvaus": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
+      },
+      {
+        "id": 4,
+        "otsikko": "Prototyyppi",
+        "kuva": "proto.png",
+        "kuvaus": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
+      },
+      {
+        "id": 5,
+        "otsikko": "Tarjouslehti",
+        "kuva": "mainos2.png",
+        "kuvaus": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
+      },
+      {
+        "id": 6,
+        "otsikko": "Sivusto",
+        "kuva": "sivusto.png",
+        "kuvaus": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
+      }
+    ]
+  }
+  
