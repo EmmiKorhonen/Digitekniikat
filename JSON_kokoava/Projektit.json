@@ -4,37 +4,37 @@
         "id": 1,
         "otsikko": "Mainos",
         "kuva": "https://raw.githubusercontent.com/EmmiKorhonen/Digitekniikat/main/JSON_kokoava/mainos1.jpg",
-        "kuvaus": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
+        "kuvaus": "Tämä vapaa-ajallani luoma sosiaalisen median kanaviin tarkoitettu mainoskuva on yksi ensimmäisistä luomistani mainoksista. Hyödynsin mainoksen teossa ilmaisia työvälineitä sekä seuralla valmiiksi käytössä olevia kuvia."
       },
       {
         "id": 2,
         "otsikko": "Asiakaspersoona",
         "kuva": "https://raw.githubusercontent.com/EmmiKorhonen/Digitekniikat/main/JSON_kokoava/persoona.png",
-        "kuvaus": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
+        "kuvaus": "Tämä asiakaspersoona on luotu osana kouluprojektia. Persoona luotiin digitaalisen palvelun asiakaslähtöisen kehityksen tueksi. Persoonan perustuu ratkaisun kohderyhmähaastattelujen tuloksiin. Kuvassa yksi kolmesta projektiin kehitetyistä asiakaspersoonista."
       },
       {
         "id": 3,
         "otsikko": "Mock up",
         "kuva": "https://raw.githubusercontent.com/EmmiKorhonen/Digitekniikat/main/JSON_kokoava/mockup.png",
-        "kuvaus": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
+        "kuvaus": "Nämä mock up -kuvat luotiin havainnollistamaan ravintolan visuaalista ilmettä. Kuvassa näkyy kahden kehittämäni logon eri versiot ja niiden käyttökohteet. Mock up -kuvat ja logo luotiin hyödyntämällä Adoben Photoshop- sekä Illustrator -ohjelmia."
       },
       {
         "id": 4,
         "otsikko": "Prototyyppi",
         "kuva": "https://raw.githubusercontent.com/EmmiKorhonen/Digitekniikat/main/JSON_kokoava/proto.png",
-        "kuvaus": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
+        "kuvaus": "Tässä on yksi esimerkki luomistani prototyypeistä. Innovoin koulussa uuden ratkaisun, josta loin lofi prototyypin hyödyntämällä wireframing ja sketching menetelmiä. Prototyypin on tarkoitus luoda ensimmäinen visuaalinen havainnekuva lopputuotteesta."
       },
       {
         "id": 5,
         "otsikko": "Tarjouslehti",
         "kuva": "https://raw.githubusercontent.com/EmmiKorhonen/Digitekniikat/main/JSON_kokoava/mainos2.png",
-        "kuvaus": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
+        "kuvaus": "Tämä tarjouslehti on mallinnettu Adobe Illustrator -ohjelmalla, noudattaen tiukkaa graaffista ohjeistusta. Kuvan elementtien koot ja sijainnit ovat tarkasti ennalta määrätyt, eikä niitä saanut muuttaa. Tekstien tyyli ja muotoilu tuli valita itse mainokseen sopivaksi."
       },
       {
         "id": 6,
         "otsikko": "Sivusto",
         "kuva": "https://raw.githubusercontent.com/EmmiKorhonen/Digitekniikat/main/JSON_kokoava/sivusto.png",
-        "kuvaus": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
+        "kuvaus": "Tämän projektin aikana olin vastuussa verkkosivun saavutettavuudesta ja käytettävyydestä. Huolehdin myös sivuston testauksesta ja järjestin projektille ulkopuolisia testaajia antamaan havaintoja sivuston toimivuudesta ja responsiivisuudesta eri laitteilla."
       }
     ]
   }
